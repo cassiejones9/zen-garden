@@ -581,7 +581,8 @@ section {
 /* xIcons section - basic style */
 
 .cd-icons {
-	li {
+	display: none;
+	/*li {
 		display: inline-block;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -618,13 +619,14 @@ section {
 
 	.cd-icon-8 {
 		background-image: url('../assets/icons/icon-8.svg'); 
-	}
+	}*/
 }
 
 /* xForm section - basic style */
 
 .cd-form {
-	input[type=text],
+	display: none;
+	/*input[type=text],
 	.cd-input-wrapper {
 		margin: 1em;
 	}
@@ -636,7 +638,7 @@ section {
 
 	select::-ms-expand {
       display: none;
-	}
+	}*/
 }
 
 @-moz-document url-prefix(){
