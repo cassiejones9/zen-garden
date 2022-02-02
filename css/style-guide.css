@@ -232,17 +232,24 @@ xButtons
 xIcons 
 
 -------------------------------- */
-.cd-icons li {
-  /* icons size */
+.cd-icons {
+  display: none;
+}
+/*.cd-icons li {
+ 
   width: 32px;
   height: 32px;
-}
+}*/
 
 /* -------------------------------- 
 
 xForm 
 
 -------------------------------- */
+.cd-form {
+  display: none;
+}
+/*
 input[type=text], select {
   border: 1px solid #e6e6e6;
   border-radius: .25em;
@@ -290,7 +297,7 @@ input[type=checkbox] {
 .radio-label::before, .radio-label::after,
 .checkbox-label::before,
 .checkbox-label::after {
-  /* custom radio and check boxes */
+  -- custom radio and check boxes --
   content: '';
   display: block;
   width: 16px;
@@ -337,7 +344,7 @@ input[type=checkbox]:checked + label::after {
 }
 
 .cd-select::after {
-  /* switcher arrow for select element */
+   -- switcher arrow for select element --
   content: '';
   position: absolute;
   z-index: 1;
@@ -365,6 +372,7 @@ select {
   -o-appearance: none;
   appearance: none;
 }
+*/
 
 /* -------------------------------- 
 
