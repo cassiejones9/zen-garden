@@ -60,6 +60,7 @@ xBackground
 body {
   /* this is the page background */
   background-image: url("nightskysmall.3a6f5826.jpg");
+  height: 100%;
 }
 /* -------------------------------- 
 
@@ -70,7 +71,7 @@ xPatterns
   /* this is the container of various design elements - i.e. the 2 logo of the branding section */
   border: 1px solid #423b0b;
   border-radius: 3px;
-  background: #ff9b42;
+  background: #fff;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
   padding: 6px;
 }
@@ -80,7 +81,7 @@ xNavigation
 
 -------------------------------- */
 header {
-  background-color: #f2fcec;
+  background-color: #ff9b42;
 }
 .cd-logo {
   /* logo box style */
@@ -94,51 +95,51 @@ header {
 }
 .cd-main-nav {
   /* main navigation background color - full screen on small devices */
-  background: #f2fcec;
+  background: #ff9b42;
 }
 .cd-main-nav li a {
-  color: #ff9b42;
-  border-color: white;
+  color: #fff;
+  border-color: #ffa85c;
 }
 @media only screen and (min-width: 1024px) {
   .cd-main-nav li a {
     color: white;
   }
   .cd-main-nav li a.selected {
-    color: #ff9b42;
+    color: #fff;
     box-shadow: 0 2px 0 #0e1422;
   }
   .cd-main-nav li a:hover {
-    color: #ff9b42;
+    color: #fff;
   }
 }
 .cd-nav-trigger span {
   /* hamburger menu */
-  background-color: #ff9b42;
+  background-color: #fff;
 }
 .cd-nav-trigger span::before, .cd-nav-trigger span::after {
   /* upper and lower lines */
-  background-color: #ff9b42;
+  background-color: #fff;
 }
 .nav-is-visible .cd-nav-trigger span {
   /* hide line in the center on mobile when nav is visible */
-  background-color: rgba(255, 155, 66, 0);
+  background-color: rgba(255, 255, 255, 0);
 }
 .nav-is-visible .cd-nav-trigger span::before, .nav-is-visible .cd-nav-trigger span::after {
   /* preserve visibility of upper and lower lines - close icon */
-  background-color: #ff9b42;
+  background-color: white;
 }
 .cd-download {
   /* download button top-right visible on big devices */
-  background-color: white;
+  background-color: #ffb675;
 }
 .no-touch .cd-download:hover {
-  background-color: white;
+  background-color: #ffc38f;
 }
 .cd-download span {
   /* tooltip */
   background: #0e1422;
-  color: #ff9b42;
+  color: #fff;
 }
 .cd-download span::before {
   /* right arrow color */
@@ -150,12 +151,12 @@ xPage title
 
 -------------------------------- */
 main > h1 {
-  color: #f2fcec;
+  color: #ff9b42;
 }
 @media only screen and (min-width: 1600px) {
   main > h1 {
     /* title goes into the header on big devices */
-    color: #ff9b42;
+    color: #fff;
   }
 }
 /* -------------------------------- 
@@ -166,7 +167,7 @@ xTypography
 h1,
 h2 {
   font-family: "Lora", serif;
-  color: #ff9b42;
+  color: #fff;
 }
 h1 {
   font-size: 2.4rem;
@@ -202,7 +203,7 @@ section > h2::before {
 p {
   font-size: 1.4rem;
   line-height: 1.4;
-  color: white;
+  color: #ffdec2;
 }
 p a {
   color: #0e1422;
@@ -225,7 +226,7 @@ xButtons
   border-radius: 0.25em;
   font-size: 1.4rem;
   font-family: "Lora", serif;
-  color: #ff9b42;
+  color: #fff;
   padding: 0.6em 2.2em;
   cursor: pointer;
   background: #0e1422;
@@ -243,10 +244,10 @@ xButtons
   background: #28b1d0;
 }
 .btn.btn-alert {
-  background: #ff9b42;
+  background: #fff;
 }
 .no-touch .btn.btn-alert:hover {
-  background: #ffa85c;
+  background: white;
 }
 .btn.btn-outline {
   color: #0e1422;
@@ -254,7 +255,7 @@ xButtons
   box-shadow: inset 0 0 0 1px #0e1422;
 }
 .no-touch .btn.btn-outline:hover {
-  color: #ff9b42;
+  color: #fff;
   background: #0e1422;
 }
 @media only screen and (min-width: 768px) {
@@ -285,7 +286,7 @@ input[type=text],
 select {
   border: 1px solid #423b0b;
   border-radius: 0.25em;
-  background: #ff9b42;
+  background: #fff;
 }
 input[type=text]:focus,
 select:focus {
@@ -300,8 +301,8 @@ input[type=text].success {
   box-shadow: 0 0 6px rgba(36, 159, 187, 0.2);
 }
 input[type=text].alert {
-  border-color: #ff9b42;
-  box-shadow: 0 0 6px rgba(255, 155, 66, 0.2);
+  border-color: #fff;
+  box-shadow: 0 0 6px rgba(255, 255, 255, 0.2);
 }
 input[type=text]:focus {
   border-color: #0e1422;
@@ -360,7 +361,7 @@ input[type=checkbox] {
 }
 input[type=radio]:checked + label::before,
 input[type=checkbox]:checked + label::before {
-  background-color: #f2fcec;
+  background-color: #ff9b42;
   border: none;
   box-shadow: none;
 }
@@ -860,13 +861,13 @@ section:nth-of-type(10) h2::before {
   background: #070910;
 }
 .cd-colors li:nth-of-type(2) .cd-color-swatch {
-  background: #f2fcec;
+  background: #ff9b42;
 }
 .cd-colors li:nth-of-type(2) .cd-color-swatch::before {
-  background: white;
+  background: #ffa85c;
 }
 .cd-colors li:nth-of-type(2) .cd-color-swatch::after {
-  background: #e3f9d6;
+  background: #ff8e29;
 }
 .cd-colors li:nth-of-type(3) .cd-color-swatch {
   background: #8a898d;
@@ -887,13 +888,13 @@ section:nth-of-type(10) h2::before {
   background: #2c2707;
 }
 .cd-colors li:nth-of-type(5) .cd-color-swatch {
-  background: #ff9b42;
+  background: #fff;
 }
 .cd-colors li:nth-of-type(5) .cd-color-swatch::before {
-  background: #ffa85c;
+  background: white;
 }
 .cd-colors li:nth-of-type(5) .cd-color-swatch::after {
-  background: #ff8e29;
+  background: #f2f2f2;
 }
 @media only screen and (min-width: 768px) {
   .cd-colors li {
