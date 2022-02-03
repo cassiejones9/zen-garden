@@ -244,10 +244,10 @@ xButtons
   background: #28b1d0;
 }
 .btn.btn-alert {
-  background: #fff;
+  background: #423b0b;
 }
 .no-touch .btn.btn-alert:hover {
-  background: white;
+  background: #584f0f;
 }
 .btn.btn-outline {
   color: #ff9b42;
@@ -301,8 +301,8 @@ input[type=text].success {
   box-shadow: 0 0 6px rgba(36, 159, 187, 0.2);
 }
 input[type=text].alert {
-  border-color: #fff;
-  box-shadow: 0 0 6px rgba(255, 255, 255, 0.2);
+  border-color: #423b0b;
+  box-shadow: 0 0 6px rgba(66, 59, 11, 0.2);
 }
 input[type=text]:focus {
   border-color: #ff9b42;
