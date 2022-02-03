@@ -81,11 +81,11 @@ xNavigation
 
 -------------------------------- */
 header {
-  background-color: #ff9b42;
+  background-color: #0e1422;
 }
 .cd-logo {
   /* logo box style */
-  background-color: #0e1422;
+  background-color: #ff9b42;
   width: 120px;
 }
 @media only screen and (min-width: 1024px) {
@@ -95,19 +95,19 @@ header {
 }
 .cd-main-nav {
   /* main navigation background color - full screen on small devices */
-  background: #ff9b42;
+  background: #0e1422;
 }
 .cd-main-nav li a {
   color: #fff;
-  border-color: #ffa85c;
+  border-color: #151f34;
 }
 @media only screen and (min-width: 1024px) {
   .cd-main-nav li a {
-    color: white;
+    color: #4a69b3;
   }
   .cd-main-nav li a.selected {
     color: #fff;
-    box-shadow: 0 2px 0 #0e1422;
+    box-shadow: 0 2px 0 #ff9b42;
   }
   .cd-main-nav li a:hover {
     color: #fff;
@@ -131,19 +131,19 @@ header {
 }
 .cd-download {
   /* download button top-right visible on big devices */
-  background-color: #ffb675;
+  background-color: #1d2946;
 }
 .no-touch .cd-download:hover {
-  background-color: #ffc38f;
+  background-color: #243458;
 }
 .cd-download span {
   /* tooltip */
-  background: #0e1422;
+  background: #ff9b42;
   color: #fff;
 }
 .cd-download span::before {
   /* right arrow color */
-  border-color: #0e1422;
+  border-color: #ff9b42;
 }
 /* -------------------------------- 
 
@@ -151,7 +151,7 @@ xPage title
 
 -------------------------------- */
 main > h1 {
-  color: #ff9b42;
+  color: #0e1422;
 }
 @media only screen and (min-width: 1600px) {
   main > h1 {
@@ -203,10 +203,10 @@ section > h2::before {
 p {
   font-size: 1.4rem;
   line-height: 1.4;
-  color: #ffdec2;
+  color: #33497c;
 }
 p a {
-  color: #0e1422;
+  color: #ff9b42;
   text-decoration: underline;
 }
 @media only screen and (min-width: 768px) {
@@ -229,13 +229,13 @@ xButtons
   color: #fff;
   padding: 0.6em 2.2em;
   cursor: pointer;
-  background: #0e1422;
+  background: #ff9b42;
 }
 .btn:focus {
   outline: none;
 }
 .no-touch .btn:hover {
-  background: #151f34;
+  background: #ffa85c;
 }
 .btn.btn-success {
   background: #249fbb;
@@ -250,13 +250,13 @@ xButtons
   background: white;
 }
 .btn.btn-outline {
-  color: #0e1422;
+  color: #ff9b42;
   background: transparent;
-  box-shadow: inset 0 0 0 1px #0e1422;
+  box-shadow: inset 0 0 0 1px #ff9b42;
 }
 .no-touch .btn.btn-outline:hover {
   color: #fff;
-  background: #0e1422;
+  background: #ff9b42;
 }
 @media only screen and (min-width: 768px) {
   .btn {
@@ -265,7 +265,7 @@ xButtons
 }
 .cd-buttons .cd-box:nth-of-type(2) span {
   /* CSS class name color */
-  color: #0e1422;
+  color: #ff9b42;
 }
 /* -------------------------------- 
 
@@ -305,8 +305,8 @@ input[type=text].alert {
   box-shadow: 0 0 6px rgba(255, 255, 255, 0.2);
 }
 input[type=text]:focus {
-  border-color: #0e1422;
-  box-shadow: 0 0 6px rgba(14, 20, 34, 0.2);
+  border-color: #ff9b42;
+  box-shadow: 0 0 6px rgba(255, 155, 66, 0.2);
 }
 input[type=radio],
 input[type=checkbox] {
@@ -361,7 +361,7 @@ input[type=checkbox] {
 }
 input[type=radio]:checked + label::before,
 input[type=checkbox]:checked + label::before {
-  background-color: #ff9b42;
+  background-color: #0e1422;
   border: none;
   box-shadow: none;
 }
@@ -852,22 +852,22 @@ section:nth-of-type(10) h2::before {
   padding: 0.6em 0;
 }
 .cd-colors li:nth-of-type(1) .cd-color-swatch {
-  background: #0e1422;
-}
-.cd-colors li:nth-of-type(1) .cd-color-swatch::before {
-  background: #151f34;
-}
-.cd-colors li:nth-of-type(1) .cd-color-swatch::after {
-  background: #070910;
-}
-.cd-colors li:nth-of-type(2) .cd-color-swatch {
   background: #ff9b42;
 }
-.cd-colors li:nth-of-type(2) .cd-color-swatch::before {
+.cd-colors li:nth-of-type(1) .cd-color-swatch::before {
   background: #ffa85c;
 }
-.cd-colors li:nth-of-type(2) .cd-color-swatch::after {
+.cd-colors li:nth-of-type(1) .cd-color-swatch::after {
   background: #ff8e29;
+}
+.cd-colors li:nth-of-type(2) .cd-color-swatch {
+  background: #0e1422;
+}
+.cd-colors li:nth-of-type(2) .cd-color-swatch::before {
+  background: #151f34;
+}
+.cd-colors li:nth-of-type(2) .cd-color-swatch::after {
+  background: #070910;
 }
 .cd-colors li:nth-of-type(3) .cd-color-swatch {
   background: #8a898d;
@@ -926,7 +926,7 @@ section:nth-of-type(10) h2::before {
 /* xTypography section - basic style */
 .cd-typography h1::before {
   content: "Aa - ";
-  color: #0e1422;
+  color: #ff9b42;
 }
 .cd-buttons .cd-box:first-of-type {
   border-bottom-left-radius: 0;
