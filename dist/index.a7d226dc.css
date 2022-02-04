@@ -59,8 +59,11 @@ xBackground
 -------------------------------- */
 body {
   /* this is the page background */
-  background-image: url("nightskysmall.3a6f5826.jpg");
+  background-image: url("nightsky.514d806f.jpg");
   height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 /* -------------------------------- 
 
@@ -103,7 +106,7 @@ header {
 }
 @media only screen and (min-width: 1024px) {
   .cd-main-nav li a {
-    color: #4a69b3;
+    color: white;
   }
   .cd-main-nav li a.selected {
     color: #fff;
@@ -151,7 +154,7 @@ xPage title
 
 -------------------------------- */
 main > h1 {
-  color: #0e1422;
+  color: #fff;
 }
 @media only screen and (min-width: 1600px) {
   main > h1 {
@@ -198,7 +201,7 @@ h2 {
 }
 section > h2::before {
   /* number before each section title */
-  color: black;
+  color: #d9d9d9;
 }
 p {
   font-size: 1.4rem;
@@ -413,6 +416,7 @@ html * {
 }
 html {
   font-size: 62.5%;
+  min-height: 100%;
 }
 body {
   font-size: 1.6rem;

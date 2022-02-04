@@ -13,8 +13,11 @@ xBackground
 
 body {
   /* this is the page background */
-  background-image: url("../assets/nightskysmall.jpg");
+  background-image: url("../assets/nightsky.jpg");
   height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* -------------------------------- 
@@ -63,7 +66,7 @@ header {
 
   @include MQ(M) {
     li a {
-      color: lighten($color-2, 40%);
+      color: lighten($color-5, 40%);
 
       &.selected {
         color: $color-5;
@@ -74,6 +77,7 @@ header {
         color: $color-5;
       }
     }
+
   }
 }
 
@@ -126,7 +130,7 @@ xPage title
 -------------------------------- */
 
 main > h1 {
-  color: $color-2;
+  color: $color-5;
 
   @include MQ(L) {
     /* title goes into the header on big devices */
@@ -174,7 +178,7 @@ h2 {
 
 section > h2::before {
   /* number before each section title */
-  color: darken($color-4, 15%);
+  color: darken($color-5, 15%);
 }
 
 p {
