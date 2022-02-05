@@ -263,10 +263,11 @@ xIcons
 
 -------------------------------- */
 
-.cd-icons li {
+.cd-icons ul {
+  display: none;
   /* icons size */
-  width: 32px;
-  height: 32px;
+  /*width: 32px;
+  height: 32px;*/
 }
 
 /* -------------------------------- 
@@ -274,8 +275,10 @@ xIcons
 xForm 
 
 -------------------------------- */
-
-input[type='text'],
+.cd-form {
+  display: hidden;
+}
+/*input[type='text'],
 select {
   border: 1px solid $color-4;
   border-radius: 0.25em;
@@ -323,7 +326,7 @@ input[type='checkbox'] {
 
   &::before,
   &::after {
-    /* custom radio and check boxes */
+    -- custom radio and check boxes --
     content: '';
     display: block;
     width: 16px;
@@ -367,7 +370,7 @@ input[type='checkbox']:checked + label::after {
 }
 
 .cd-select::after {
-  /* switcher arrow for select element */
+  -- switcher arrow for select element --
   content: '';
   position: absolute;
   z-index: 1;
@@ -386,6 +389,6 @@ select {
   padding: 0.6em 2em 0.6em 1em;
   cursor: pointer;
   @include appearance(none);
-}
+}*/
 
 @import 'partials/basic-style';
