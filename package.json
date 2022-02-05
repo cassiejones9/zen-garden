@@ -23,5 +23,8 @@
   "devDependencies": {
     "@parcel/transformer-sass": "^2.2.1",
     "parcel": "^2.2.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
   }
 }
