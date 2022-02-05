@@ -1,0 +1,30 @@
+{
+  "name": "zen-garden",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel ./index.html",
+    "prebuild": "npx rimraf build",
+    "build": "parcel build --public-url ./ ./index.html  --out-dir build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cassiejones9/zen-garden.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cassiejones9/zen-garden/issues"
+  },
+  "homepage": "https://github.com/cassiejones9/zen-garden#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.2.1",
+    "parcel": "^2.2.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
