@@ -3,6 +3,7 @@
 @import 'partials/layout'; // responsive grid and media queries
 @import 'partials/colors'; // color palette 
 @import 'partials/fonts'; // fonts
+@import 'partials/navigation'; // navigation menu
 
 
 /* -------------------------------- 
@@ -36,13 +37,13 @@ xPatterns
 xNavigation 
 
 -------------------------------- */
-
+/*
 header {
   background-color: $color-2;
 }
 
 .cd-logo {
-  /* logo box style */
+  -- logo box style --
   background-color: $color-1;
   width: 120px;
 
@@ -52,7 +53,7 @@ header {
 }
 
 .cd-main-nav {
-  /* main navigation background color - full screen on small devices */
+  -- main navigation background color - full screen on small devices --
   background: $color-2;
 
   li a {
@@ -77,29 +78,29 @@ header {
 }
 
 .cd-nav-trigger span {
-  /* hamburger menu */
+  -- hamburger menu --
   background-color: $color-5;
 
   &::before,
   &::after {
-    /* upper and lower lines */
+    -- upper and lower lines --
     background-color: $color-5;
   }
 }
 
 .nav-is-visible .cd-nav-trigger span {
-  /* hide line in the center on mobile when nav is visible */
+  -- hide line in the center on mobile when nav is visible --
   background-color: rgba($color-5, 0);
 
   &::before,
   &::after {
-    /* preserve visibility of upper and lower lines - close icon */
+    -- preserve visibility of upper and lower lines - close icon --
     background-color: rgba($color-5, 1);
   }
 }
 
 .cd-download {
-  /* download button top-right visible on big devices */
+  -- download button top-right visible on big devices --
   background-color: lighten($color-2, 10%);
 
   .no-touch &:hover {
@@ -107,17 +108,17 @@ header {
   }
 
   span {
-    /* tooltip */
+    -- tooltip --
     background: $color-1;
     color: $color-5;
 
     &::before {
-      /* right arrow color */
+      -- right arrow color --
       border-color: $color-1;
     }
   }
 }
-
+*/
 /* -------------------------------- 
 
 xPage title 
